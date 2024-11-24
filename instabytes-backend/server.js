@@ -4,6 +4,9 @@ import routes from "./src/routes/postsRoutes.js"
 
 //o app representa o servidor
 const app = express();
+
+//torna a pasta uploads pública
+app.use(express.static("uploads"));
 routes(app);
 
 app.listen(3000, () => {

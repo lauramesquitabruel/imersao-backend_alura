@@ -1,0 +1,3 @@
+[submodule "instabytes-frontend"]
+	path = instabytes-frontend
+	url = https://github.com/guilhermeonrails/insta-like.git
